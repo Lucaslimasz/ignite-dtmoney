@@ -10,7 +10,6 @@
 <br/>
 
 # dtmoney 
-<img src='favicon.png'/> 
 
 > Gerenciador financeiro | Desenvolvimento do *dtmoney*, Utilizando React.Js 
 
@@ -52,8 +51,8 @@ git clone https://github.com/Lucaslimasz/ignite-dtmoney.git
 
 `
 # Para instalar as dependências
-yarn ou yarn install
+yarn
 
 # Para startar o projeto utilize
-yarn dev
+yarn start
 `
