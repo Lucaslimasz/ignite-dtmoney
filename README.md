@@ -49,7 +49,6 @@ git clone https://github.com/Lucaslimasz/ignite-dtmoney.git
 
 #### Na raiz do projeto, execute os comandos:
 
-`
 # Para instalar as dependências
 yarn
 
