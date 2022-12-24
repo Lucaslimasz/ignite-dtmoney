@@ -27,4 +27,12 @@ export const Content = styled.div`
       filter: brightness(0.9);
     }
   }
+
+  @media (max-width: 400px){
+    button {
+      padding: 0 0.75rem;
+      font-size: .8rem;
+      font-weight: 800;
+    }
+  }
 `;

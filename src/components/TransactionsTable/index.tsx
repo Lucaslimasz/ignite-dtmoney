@@ -12,7 +12,7 @@ export function TransactionsTable() {
           <tr>
             <th>Título</th>
             <th>Valor</th>
-            <th>Categoria</th>
+            <th className="category">Categoria</th>
             <th>Data</th>
           </tr>
         </thead>
@@ -25,7 +25,7 @@ export function TransactionsTable() {
                 style: 'currency',
                 currency: 'BRL'
               }).format(transaction.amount)}</td>
-              <td>{transaction.category}</td>
+              <td className="category">{transaction.category}</td>
               <td>{new Intl.DateTimeFormat('pt-BR').format(
                 new Date(transaction.createdAt)
               )}</td>

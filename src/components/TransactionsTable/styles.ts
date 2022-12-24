@@ -35,4 +35,15 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media (max-width: 540px){
+    table {
+      td, td {
+        padding: 1rem 1rem;
+      }
+    }
+    .category {
+      display: none;
+    }
+  }
 `;

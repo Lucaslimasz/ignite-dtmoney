@@ -32,4 +32,22 @@ export const Container = styled.div`
       color: #fff;
     }
   }
+
+  @media (max-width: 1000px){
+    gap: 1rem;
+  }
+
+  @media (max-width: 800px){
+    gap: 0.5rem;
+
+    div {
+      strong {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  @media (max-width: 700px){
+    grid-template-columns: 1fr;
+  }
 `;
